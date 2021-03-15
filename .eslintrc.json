@@ -1,6 +1,7 @@
 {
     "extends": ["react-app", "airbnb-typescript", "prettier/@typescript-eslint", "plugin:prettier/recommended"],
     "rules": {
+        "prettier/prettier": ["off"],
         "object-curly-spacing": ["warn", "always"],
         "no-unused-vars": [
             "warn",
@@ -55,16 +56,8 @@
         "react/react-in-jsx-scope": "off",
         "react/jsx-indent": [0],
         "react/jsx-indent-props": [0],
-        "@typescript-eslint/comma-dangle": [
-            "error",
-            {
-                "arrays": "only-multiline",
-                "objects": "only-multiline",
-                "imports": "only-multiline",
-                "exports": "only-multiline",
-                "functions": "never"
-            }
-        ]
+        "comma-dangle": "off",
+        "@typescript-eslint/comma-dangle": ["off"]
     },
     "settings": {
         "import/parsers": {
