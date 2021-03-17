@@ -7,7 +7,7 @@ import useStyles from './HeaderStyles';
 
 export interface HeaderProps {}
 
-export const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC<HeaderProps> = () => {
     const classes = useStyles();
 
     return (
@@ -31,3 +31,4 @@ export const Header: React.FC<HeaderProps> = () => {
         </Grid>
     );
 };
+export default Header;
