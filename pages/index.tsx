@@ -1,7 +1,9 @@
+import { Header } from 'components/Layout';
+
 export interface HomeProps {}
 
 const Home: React.FC<HomeProps> = () => {
-    return <div />;
+    return <Header />;
 };
 
 export default Home;
