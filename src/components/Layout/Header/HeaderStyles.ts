@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(({ breakpoints, palette, spacing, typography }) => ({
     HeaderContainer: {
+        position: 'relative',
         borderBottom: `1px solid ${palette.primary.main}`,
         [breakpoints.up('md')]: {
             border: `1px solid ${palette.primary.main}`,
@@ -12,18 +13,7 @@ const useStyles = makeStyles(({ breakpoints, palette, spacing, typography }) => 
         padding: spacing(1),
         textAlign: 'center',
     },
-    LogoLink: {
-        textDecoration: 'none',
-        color: 'inherit',
-        outline: 'none',
-    },
-    LogoImg: {
-        width: '100px',
-        height: '50px',
-    },
-    LogoTitle: {
-        fontWeight: 500,
-    },
+
     NavigationLink: {
         fontSize: typography.h4.fontSize,
         paddingRight: '1rem',

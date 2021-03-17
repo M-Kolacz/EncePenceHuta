@@ -1,6 +1,8 @@
 import React from 'react';
-import { Grid, Hidden, Typography, Box } from '@material-ui/core';
+import { Grid, Typography, Box } from '@material-ui/core';
 
+import Logo from 'components/UIElements/Logo';
+import MobileNavigation from './Navigation/MobileNavigation';
 import DesktopNavigation from './Navigation/DesktopNavigation';
 
 import useStyles from './HeaderStyles';
@@ -13,21 +15,10 @@ const Header: React.FC<HeaderProps> = () => {
     return (
         <Grid container item xs={12} component='header' className={classes.HeaderContainer}>
             <Grid item xs={12} md={3} className={classes.LogoContainer}>
-                <a href='/' className={classes.LogoLink}>
-                    <Box>
-                        <img src='images/svg/rainbow.svg' alt='Rainbow' className={classes.LogoImg} />
-                        <Typography variant='h2' className={classes.LogoTitle} component='h1'>
-                            Ence Pence
-                        </Typography>
-                        <Typography variant='subtitle1' component='h2'>
-                            Żłobek Nowa Huta
-                        </Typography>
-                    </Box>
-                </a>
+                <Logo />
             </Grid>
-            <Hidden smDown={true}>
-                <DesktopNavigation />
-            </Hidden>
+            <DesktopNavigation />
+            <MobileNavigation />
         </Grid>
     );
 };
