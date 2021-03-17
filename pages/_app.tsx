@@ -5,7 +5,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 import type { AppProps } from 'next/app';
 
-import theme from 'shared/theme';
+import theme from 'shared/theme/main';
 
 function MyApp({ Component, pageProps }: AppProps) {
     useEffect(() => {
