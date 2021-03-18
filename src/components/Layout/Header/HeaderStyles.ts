@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(({ breakpoints, palette, spacing, typography }) => ({
     HeaderContainer: {
+        height: '165px',
         position: 'relative',
         borderBottom: `1px solid ${palette.primary.main}`,
         [breakpoints.up('md')]: {
