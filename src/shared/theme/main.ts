@@ -2,7 +2,7 @@ import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
     typography: {
-        h1: { fontSize: '3.25rem', fontFamily: 'Roboto' },
+        h1: { fontSize: '4.4rem', fontFamily: 'Roboto', fontWeight: 400 },
         h2: { fontSize: '2.188rem', fontFamily: 'Roboto' },
         h3: { fontSize: '1.563rem', fontFamily: 'Roboto' },
         h4: { fontSize: '1.875rem', fontFamily: 'Open Sans', fontWeight: 700 },

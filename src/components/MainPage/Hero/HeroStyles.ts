@@ -21,11 +21,6 @@ const useStyles = makeStyles(({ spacing, breakpoints }) => ({
             margin: spacing(5),
         },
     },
-    HeroTitle: {
-        [breakpoints.up('md')]: {
-            fontSize: '80px',
-        },
-    },
 }));
 
 export default useStyles;
