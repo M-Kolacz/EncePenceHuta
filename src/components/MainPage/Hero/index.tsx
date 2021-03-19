@@ -5,7 +5,7 @@ import useStyles from './HeroStyles';
 
 export interface HeroProps {}
 
-const Hero: React.FC<HeroProps> = () => {
+export const Hero: React.FC<HeroProps> = () => {
     const { palette } = useTheme();
     const classes = useStyles();
     return (
@@ -25,5 +25,3 @@ const Hero: React.FC<HeroProps> = () => {
         </Grid>
     );
 };
-
-export default Hero;

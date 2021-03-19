@@ -1,8 +1,4 @@
-import Hero from 'components/MainPage/Hero';
-import Service from 'components/MainPage/Service';
-import Approach from 'components/MainPage/Approach';
-import Opinions from 'components/MainPage/Opinions';
-import Gallery from 'components/MainPage/Gallery';
+import { Approach, Gallery, Hero, Opinions, Service } from 'components/MainPage';
 
 export interface HomeProps {}
 
@@ -12,8 +8,8 @@ const Home: React.FC<HomeProps> = () => {
             <Hero />
             <Service />
             <Approach />
-            <Gallery />
             <Opinions />
+            <Gallery />
         </>
     );
 };

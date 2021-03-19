@@ -13,7 +13,7 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 export interface OpinionsProps {}
 
-const Opinions: React.FC<OpinionsProps> = () => {
+export const Opinions: React.FC<OpinionsProps> = () => {
     const classes = useStyles();
 
     const [activeStep, setActiveStep] = useState(0);
@@ -82,5 +82,3 @@ const Opinions: React.FC<OpinionsProps> = () => {
         </Grid>
     );
 };
-
-export default Opinions;

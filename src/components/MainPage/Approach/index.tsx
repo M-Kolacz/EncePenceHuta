@@ -4,7 +4,7 @@ import useStyles from './ApproachStyles';
 
 export interface ApproachProps {}
 
-const Approach: React.FC<ApproachProps> = () => {
+export const Approach: React.FC<ApproachProps> = () => {
     const classes = useStyles();
     return (
         <Grid container item xs={12}>
@@ -27,5 +27,3 @@ const Approach: React.FC<ApproachProps> = () => {
         </Grid>
     );
 };
-
-export default Approach;

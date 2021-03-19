@@ -6,7 +6,7 @@ import useStyles from './ServiceStyles';
 
 export interface ServiceProps {}
 
-const Service: React.FC<ServiceProps> = () => {
+export const Service: React.FC<ServiceProps> = () => {
     const classes = useStyles();
     return (
         <Grid container justify='space-evenly' alignItems='center' item xs={12} className={classes.ServiceContainer}>
@@ -27,5 +27,3 @@ const Service: React.FC<ServiceProps> = () => {
         </Grid>
     );
 };
-
-export default Service;

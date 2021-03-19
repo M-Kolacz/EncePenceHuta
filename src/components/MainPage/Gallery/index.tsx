@@ -8,7 +8,7 @@ import useStyles from './GaleryStyles';
 
 export interface GalleryProps {}
 
-const Gallery: React.FC<GalleryProps> = () => {
+export const Gallery: React.FC<GalleryProps> = () => {
     const classes = useStyles();
 
     const isMobile = useMediaQuery('(max-width:960px)');
@@ -25,5 +25,3 @@ const Gallery: React.FC<GalleryProps> = () => {
         </Grid>
     );
 };
-
-export default Gallery;
