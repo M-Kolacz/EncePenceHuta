@@ -13,10 +13,10 @@ export const Approach: React.FC<ApproachProps> = () => {
             </Grid>
             <Grid container justify='space-evenly' alignItems='center' item xs={12} md={6}>
                 <Box textAlign='center'>
-                    <Typography variant='h2' className={classes.ServiceItemTitle}>
+                    <Typography variant='h3' className={classes.ServiceItemTitle}>
                         Nasze Podejście
                     </Typography>
-                    <Typography variant='h6'>
+                    <Typography variant='body1'>
                         Celem otwarcia była myśl pomocy mamom w opiece nad ich skarbami. Tworzymy przyjazną domową
                         atmosferę, oraz poczucie bezpieczeństwa. Wszelkie zabawy i zajęcia dostosowane są do możliwości,
                         zainteresowań, potrzeb, oraz rozwoju dziecka. Placówka wyposażona jest w bezpieczne atestowane

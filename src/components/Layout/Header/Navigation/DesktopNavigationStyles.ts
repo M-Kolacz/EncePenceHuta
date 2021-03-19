@@ -10,7 +10,7 @@ const useStyles = makeStyles(({ typography }) => ({
         listStyle: 'none',
     },
     NavigationLink: {
-        fontSize: typography.h4.fontSize,
+        fontSize: typography.h3.fontSize,
         paddingRight: '1rem',
         paddingLeft: '1rem',
         fontFamily: typography.body1.fontFamily,

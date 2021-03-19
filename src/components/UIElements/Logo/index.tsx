@@ -1,4 +1,4 @@
-import { Grid, Box, Typography } from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 
 import useStyles from './LogoStyles';
 
@@ -11,10 +11,10 @@ const Logo: React.FC<LogoProps> = () => {
             <a href='/' className={classes.LogoLink}>
                 <Box>
                     <img src='images/svg/rainbow.svg' alt='Rainbow' className={classes.LogoImg} />
-                    <Typography variant='h2' className={classes.LogoTitle} component='h1'>
+                    <Typography variant='h3' className={classes.LogoTitle} component='h1'>
                         Ence Pence
                     </Typography>
-                    <Typography variant='subtitle1' component='h2'>
+                    <Typography variant='h4' component='h2'>
                         Żłobek Nowa Huta
                     </Typography>
                 </Box>

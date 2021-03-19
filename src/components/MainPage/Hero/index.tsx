@@ -12,7 +12,7 @@ export const Hero: React.FC<HeroProps> = () => {
         <Grid item xs={12} className={classes.HeroContainer}>
             <Hidden>
                 <Box className={classes.HeroTitleContainer}>
-                    <Typography variant='h1'>
+                    <Typography variant='h1' component='h2'>
                         <span style={{ display: 'block' }}> Witaj w</span>
                         <span style={{ color: palette.primary.main }}>Żłobku </span>
                         <span style={{ color: palette.lightBlue.main }}>Nowa </span>

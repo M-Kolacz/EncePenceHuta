@@ -8,9 +8,7 @@ const useStyles = makeStyles(({ spacing }) => ({
         textAlign: 'center',
         margin: spacing(1),
     },
-    ServiceTitle: {
-        fontWeight: 500,
-    },
+
     ServiceItemContainer: {
         textAlign: 'center',
     },

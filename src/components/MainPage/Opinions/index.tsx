@@ -41,17 +41,17 @@ export const Opinions: React.FC<OpinionsProps> = () => {
             className={classes.OpinionsContainer}
         >
             <Box className={classes.root}>
-                <Typography variant='h2' className={classes.ServiceItemTitle}>
+                <Typography variant='h3' className={classes.ServiceItemTitle}>
                     Opinie rodziców
                 </Typography>
                 <AutoPlaySwipeableViews axis='x' index={activeStep} onChangeIndex={handleStepChange} enableMouseEvents>
                     {OpinionsData.map((step, index) => (
                         <div key={step.author}>
                             {Math.abs(activeStep - index) <= 2 ? (
-                                <Typography variant='h6'>{step.description}</Typography>
+                                <Typography variant='body1'>{step.description}</Typography>
                             ) : null}
                             <Paper square elevation={0} className={classes.header} style={{ textAlign: 'right' }}>
-                                <Typography variant='h6' style={{ marginLeft: 'auto' }}>
+                                <Typography variant='body2' style={{ marginLeft: 'auto', fontWeight: 700 }}>
                                     {OpinionsData[activeStep].author}
                                 </Typography>
                             </Paper>
