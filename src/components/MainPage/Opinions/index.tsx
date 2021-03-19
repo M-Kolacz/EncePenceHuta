@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons';
 import { MobileStepper, Paper, Typography, Button, Grid, Box } from '@material-ui/core';
 
@@ -16,7 +16,7 @@ export interface OpinionsProps {}
 const Opinions: React.FC<OpinionsProps> = () => {
     const classes = useStyles();
 
-    const [activeStep, setActiveStep] = React.useState(0);
+    const [activeStep, setActiveStep] = useState(0);
     const maxSteps = OpinionsData.length;
 
     const handleNext = () => {
@@ -50,12 +50,15 @@ const Opinions: React.FC<OpinionsProps> = () => {
                             {Math.abs(activeStep - index) <= 2 ? (
                                 <Typography variant='h6'>{step.description}</Typography>
                             ) : null}
+                            <Paper square elevation={0} className={classes.header} style={{ textAlign: 'right' }}>
+                                <Typography variant='h6' style={{ marginLeft: 'auto' }}>
+                                    {OpinionsData[activeStep].author}
+                                </Typography>
+                            </Paper>
                         </div>
                     ))}
                 </AutoPlaySwipeableViews>
-                <Paper square elevation={0} className={classes.header}>
-                    <Typography variant='h6'>{OpinionsData[activeStep].author}</Typography>
-                </Paper>
+
                 <MobileStepper
                     steps={maxSteps}
                     position='static'
