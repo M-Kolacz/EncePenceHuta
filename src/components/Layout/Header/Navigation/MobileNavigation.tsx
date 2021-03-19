@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Box, IconButton, Drawer, Hidden, ListItem, ListItemText, ListItemIcon } from '@material-ui/core';
 
 import MenuIcon from '@material-ui/icons/Menu';
-import NavigationLinks from 'shared/SSOT/NavigationLinks';
+import NavigationLinks from 'shared/SSOT/NavigationLinksData';
 
 import Logo from 'components/UIElements/Logo';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Button, Hidden } from '@material-ui/core';
 
-import NavigationLinks from 'shared/SSOT/NavigationLinks';
+import NavigationLinks from 'shared/SSOT/NavigationLinksData';
 
 import useStyles from './DesktopNavigationStyles';
 
