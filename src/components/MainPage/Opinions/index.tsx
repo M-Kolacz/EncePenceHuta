@@ -59,7 +59,7 @@ const Opinions: React.FC<OpinionsProps> = () => {
                 <MobileStepper
                     steps={maxSteps}
                     position='static'
-                    variant='text'
+                    variant='dots'
                     activeStep={activeStep}
                     style={{ backgroundColor: 'white' }}
                     nextButton={
