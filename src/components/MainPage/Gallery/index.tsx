@@ -18,7 +18,7 @@ export const Gallery: React.FC<GalleryProps> = () => {
             <GridList cellHeight={400} cols={3} spacing={20}>
                 {GalleryData.map((tile) => (
                     <GridListTile key={tile.img} cols={isMobile ? 3 : tile.cols} rows={tile.rows}>
-                        <img src={tile.img} alt={tile.title} className={classes.Image} />
+                        <img src={tile.img} alt={tile.title} />
                     </GridListTile>
                 ))}
             </GridList>

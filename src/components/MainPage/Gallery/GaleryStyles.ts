@@ -11,7 +11,6 @@ const useStyles = makeStyles(({ spacing, palette, breakpoints }) => ({
             padding: spacing(0, 4),
         },
     },
-    Image: {},
 }));
 
 export default useStyles;
