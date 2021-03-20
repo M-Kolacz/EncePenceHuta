@@ -17,7 +17,7 @@ const Footer: React.FC<FooterProps> = () => {
                     © 2020 Ence Pence
                 </Typography>
                 <Typography variant='body2' className={classes.CopyRightsLogo}>
-                    Złobek Nowa Huta
+                    Żłobek Nowa Huta
                 </Typography>
             </Grid>
             <Grid
