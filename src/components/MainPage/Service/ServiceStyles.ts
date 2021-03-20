@@ -6,6 +6,7 @@ const useStyles = makeStyles(({ spacing }) => ({
         margin: spacing(3, 0),
     },
     ServiceTitleContainer: {
+        width: '100%',
         textAlign: 'center',
         margin: spacing(2, 0),
     },
