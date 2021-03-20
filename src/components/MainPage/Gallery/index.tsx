@@ -15,10 +15,10 @@ export const Gallery: React.FC<GalleryProps> = () => {
 
     return (
         <Grid item xs={12} className={classes.root}>
-            <GridList cellHeight={800} cols={3} spacing={20}>
+            <GridList cellHeight={400} cols={3} spacing={20}>
                 {GalleryData.map((tile) => (
-                    <GridListTile key={tile.img} cols={isMobile ? 3 : tile.cols}>
-                        <img src={tile.img} alt={tile.title} />
+                    <GridListTile key={tile.img} cols={isMobile ? 3 : tile.cols} rows={tile.rows}>
+                        <img src={tile.img} alt={tile.title} className={classes.Image} />
                     </GridListTile>
                 ))}
             </GridList>

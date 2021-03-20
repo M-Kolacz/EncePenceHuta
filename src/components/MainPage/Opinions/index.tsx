@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons';
-import { MobileStepper, Paper, Typography, Button, Grid, Box } from '@material-ui/core';
+import { MobileStepper, Typography, Button, Grid, Box } from '@material-ui/core';
 
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
@@ -31,31 +31,22 @@ export const Opinions: React.FC<OpinionsProps> = () => {
         setActiveStep(step);
     };
     return (
-        <Grid
-            container
-            justify='center'
-            alignItems='center'
-            item
-            xs={12}
-            style={{ textAlign: 'center' }}
-            className={classes.OpinionsContainer}
-        >
-            <Box className={classes.root}>
-                <Typography variant='h3' className={classes.ServiceItemTitle}>
+        <Grid container justify='center' alignItems='center' item xs={12} className={classes.OpinionsContainer}>
+            <Box className={classes.OpinionsBox}>
+                <Typography variant='h3' className={classes.OpinionsTitle}>
                     Opinie rodziców
                 </Typography>
                 <AutoPlaySwipeableViews axis='x' index={activeStep} onChangeIndex={handleStepChange} enableMouseEvents>
                     {OpinionsData.map((step, index) => (
-                        <div key={step.author}>
+                        <Box key={step.author}>
                             {Math.abs(activeStep - index) <= 2 ? (
                                 <Typography variant='body1'>{step.description}</Typography>
                             ) : null}
-                            <Paper square elevation={0} className={classes.header} style={{ textAlign: 'right' }}>
-                                <Typography variant='body2' style={{ marginLeft: 'auto', fontWeight: 700 }}>
-                                    {OpinionsData[activeStep].author}
-                                </Typography>
-                            </Paper>
-                        </div>
+
+                            <Typography variant='body2' className={classes.OpinionsAuthor}>
+                                {OpinionsData[activeStep].author}
+                            </Typography>
+                        </Box>
                     ))}
                 </AutoPlaySwipeableViews>
 
@@ -64,7 +55,7 @@ export const Opinions: React.FC<OpinionsProps> = () => {
                     position='static'
                     variant='dots'
                     activeStep={activeStep}
-                    style={{ backgroundColor: 'white' }}
+                    className={classes.OpinionsStepper}
                     nextButton={
                         <Button size='large' onClick={handleNext} disabled={activeStep === maxSteps - 1}>
                             Następny
