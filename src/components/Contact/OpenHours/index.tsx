@@ -9,7 +9,7 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
     return (
         <Grid container justify='space-evenly' alignItems='center' item xs={12}>
             <Typography variant='h2' className={classes.AskTitle}>
-                Kontakt
+                Dane kontaktowe
             </Typography>
             <hr className={classes.Hr} />
             <Grid
@@ -29,6 +29,9 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
                         Poniedziałek-Piątek
                     </Typography>
                     <Typography variant='body1'>7:00 - 17:00</Typography>
+                    <Typography variant='body1' style={{ color: 'white' }}>
+                        7:00 - 17:00
+                    </Typography>
                 </Box>
             </Grid>
             <Grid
@@ -47,7 +50,8 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
                     <Typography variant='h4' className={classes.AskDescription}>
                         os. Centrum E14 lok.3 31-934 Kraków
                     </Typography>
-                    <Typography variant='body1'>Tel: 739 048 513</Typography>
+                    <Typography variant='body1'>Email: zlobekhuta@gmail.com</Typography>
+                    <Typography variant='body1'>Tel: 739 048 513 </Typography>
                 </Box>
             </Grid>
             <hr className={classes.HrDown} />
