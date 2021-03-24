@@ -1,6 +1,7 @@
 import { Grid, Typography } from '@material-ui/core';
 
 import ServiceData from 'shared/SSOT/ServiceData';
+import BlankText from 'components/UIElements/BlankText';
 
 import useStyles from './ServiceStyles';
 
@@ -14,13 +15,16 @@ export const Service: React.FC<ServiceProps> = () => {
                 Oferujemy
             </Typography>
 
-            {ServiceData.map(({ title, description, image }) => (
+            {ServiceData.map(({ title, description, blankText, image }) => (
                 <Grid item xs={12} md={3} className={classes.ServiceItemContainer} key={title}>
                     <img src={image} alt='Bike' />
                     <Typography variant='h3' className={classes.ServiceItemTitle}>
                         {title}
                     </Typography>
-                    <Typography variant='body1'>{description}</Typography>
+                    <Typography variant='body1'>
+                        {description}
+                        <BlankText variant='body1'>{blankText}</BlankText>
+                    </Typography>
                 </Grid>
             ))}
         </Grid>
