@@ -1,5 +1,7 @@
 import { Grid, Typography, Box } from '@material-ui/core';
 
+import BlankText from 'components/UIElements/BlankText';
+
 import useStyles from './OpenHoursStyles';
 
 export interface OpenHoursProps {}
@@ -29,9 +31,7 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
                         Poniedziałek-Piątek
                     </Typography>
                     <Typography variant='body1'>7:00 - 17:00</Typography>
-                    <Typography variant='body1' style={{ color: 'white' }}>
-                        7:00 - 17:00
-                    </Typography>
+                    <BlankText variant='body1'>7:00 - 17:00</BlankText>
                 </Box>
             </Grid>
             <Grid
