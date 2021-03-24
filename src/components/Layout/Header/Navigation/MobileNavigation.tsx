@@ -24,7 +24,7 @@ const MobileNavigation: React.FC<MobileNavigationProps> = () => {
                 </IconButton>
             </Box>
             <Drawer anchor='left' open={open} onClose={handleClick}>
-                <Logo />
+                <Logo link />
                 <ul className={classes.NavigationList}>
                     {NavigationLinks.map(({ title, icon, path }) => (
                         <li key={title} className={classes.NavigationElement}>

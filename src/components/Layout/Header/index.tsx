@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = () => {
     return (
         <Grid container item xs={12} component='header' className={classes.HeaderContainer}>
             <Grid item xs={12} md={3} className={classes.LogoContainer}>
-                <Logo />
+                <Logo link />
             </Grid>
             <DesktopNavigation />
             <MobileNavigation />
