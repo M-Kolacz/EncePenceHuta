@@ -1,6 +1,7 @@
 import { Grid, Typography, Box } from '@material-ui/core';
 
 import BlankText from 'components/UIElements/BlankText';
+import Hr from 'components/UIElements/Hr';
 
 import useStyles from './OpenHoursStyles';
 
@@ -13,7 +14,7 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
             <Typography variant='h2' className={classes.AskTitle}>
                 Dane kontaktowe
             </Typography>
-            <hr className={classes.Hr} />
+            <Hr className={classes.HrUp} />
             <Grid
                 container
                 justify='center'
@@ -54,7 +55,7 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
                     <Typography variant='body1'>Tel: 739 048 513 </Typography>
                 </Box>
             </Grid>
-            <hr className={classes.HrDown} />
+            <Hr className={classes.HrDown} />
         </Grid>
     );
 };

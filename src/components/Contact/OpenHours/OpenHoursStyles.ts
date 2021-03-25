@@ -6,14 +6,10 @@ const useStyles = makeStyles(({ spacing, palette, breakpoints }) => ({
         textAlign: 'center',
         margin: spacing(2, 0),
     },
-    Hr: {
-        width: '100%',
-        height: '2px',
+    HrUp: {
         margin: spacing(2, 0, 0),
     },
     HrDown: {
-        width: '100%',
-        height: '2px',
         margin: spacing(0, 0, 2),
     },
     AskContactContainer: {
