@@ -5,7 +5,7 @@ import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 const NavigationLinks = [
     {
         title: 'Aktualności',
-        path: '/aktualności',
+        path: '/aktualnosci',
         icon: <AddAlertIcon />,
     },
     {

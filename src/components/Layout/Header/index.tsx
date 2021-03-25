@@ -1,5 +1,4 @@
-import React from 'react';
-import { Grid, Typography, Box } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 
 import Logo from 'components/UIElements/Logo';
 import MobileNavigation from './Navigation/MobileNavigation';
