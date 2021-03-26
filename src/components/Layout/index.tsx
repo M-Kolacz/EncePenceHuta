@@ -13,7 +13,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <CssBaseline>
             <Grid container className={classes.AppContainer}>
                 <Header />
-                {children}
+                <Grid container component='main'>
+                    {children}
+                </Grid>
                 <Footer />
             </Grid>
         </CssBaseline>
