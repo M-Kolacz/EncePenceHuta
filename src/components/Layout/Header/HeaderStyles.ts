@@ -9,6 +9,15 @@ const useStyles = makeStyles(({ breakpoints, palette, spacing, typography }) => 
             border: `1px solid ${palette.primary.main}`,
         },
     },
+    SkipLink: {
+        position: 'absolute',
+        top: '-1000px',
+        left: '-1000px',
+        background: '#000000',
+        color: 'transparent',
+        zIndex: -100,
+    },
+
     LogoContainer: {
         borderRight: `1px solid ${palette.primary.main}`,
         padding: spacing(1),

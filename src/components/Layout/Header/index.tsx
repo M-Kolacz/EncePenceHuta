@@ -1,4 +1,4 @@
-import { Grid } from '@material-ui/core';
+import { Grid, Link } from '@material-ui/core';
 
 import Logo from 'components/UIElements/Logo';
 import MobileNavigation from './Navigation/MobileNavigation';
@@ -13,6 +13,7 @@ const Header: React.FC<HeaderProps> = () => {
 
     return (
         <Grid container item xs={12} component='header' className={classes.HeaderContainer}>
+            <Link href='#main' className={classes.SkipLink} />
             <Grid item xs={12} md={3} className={classes.LogoContainer}>
                 <Logo link />
             </Grid>
