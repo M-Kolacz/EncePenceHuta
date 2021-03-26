@@ -1,0 +1,1 @@
+export { ScrollableTabsButtonForce } from './Table';
