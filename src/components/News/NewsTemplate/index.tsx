@@ -16,8 +16,8 @@ export interface NewsParagraphProps extends TypographyProps {}
 export const NewsTemplate: React.FC<NewsTemplateProps> = ({ title, children }) => {
     const classes = useStyles();
     return (
-        <Grid item xs={10} md={8} className={classes.ContainerTitle}>
-            <Typography variant='h3' className={classes.Title}>
+        <Grid item xs={10} md={8} className={classes.ContainerTitle} component='article'>
+            <Typography variant='h3' className={classes.Title} component='h2'>
                 {title}
             </Typography>
             {children}
