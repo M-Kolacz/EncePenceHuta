@@ -29,10 +29,10 @@ const Footer: React.FC<FooterProps> = () => {
                 alignItems='center'
                 className={classes.IconsContainer}
             >
-                <IconButton className={classes.Icon}>
+                <IconButton className={classes.Icon} component='a' href='/#gallery'>
                     <PhotoIcon />
                 </IconButton>
-                <IconButton className={classes.Icon}>
+                <IconButton className={classes.Icon} component='a' href='https://www.facebook.com/encepencehuta'>
                     <FacebookIcon />
                 </IconButton>
             </Grid>

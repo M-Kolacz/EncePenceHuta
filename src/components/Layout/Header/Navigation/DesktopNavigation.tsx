@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button, Hidden } from '@material-ui/core';
+import { Grid, Button, Hidden, Link } from '@material-ui/core';
 
 import NavigationLinks from 'shared/SSOT/NavigationLinksData';
 
@@ -12,11 +12,11 @@ const NavigationList: React.FC<NavigationListProps> = () => {
 
     return (
         <Hidden smDown={true}>
-            <Grid container item justify='flex-end' alignItems='center' md={9}>
+            <Grid container item justify='flex-end' alignItems='center' md={9} component='nav'>
                 <ul className={classes.NavigationList}>
                     {NavigationLinks.map(({ path, title }) => (
                         <li className={classes.ListItem} key={title}>
-                            <Button component='a' href={path} className={classes.NavigationLink}>
+                            <Button component={Link} href={path} className={classes.NavigationLink}>
                                 {title}
                             </Button>
                         </li>

@@ -14,7 +14,7 @@ export const Gallery: React.FC<GalleryProps> = () => {
     const isMobile = useMediaQuery('(max-width:960px)');
 
     return (
-        <Grid item xs={12} className={classes.root}>
+        <Grid item xs={12} className={classes.root} id='gallery'>
             <GridList cellHeight={400} cols={3} spacing={20}>
                 {GalleryData.map((tile) => (
                     <GridListTile key={tile.img} cols={isMobile ? 3 : tile.cols} rows={tile.rows}>

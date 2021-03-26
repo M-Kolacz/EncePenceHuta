@@ -25,16 +25,18 @@ const MobileNavigation: React.FC<MobileNavigationProps> = () => {
             </Box>
             <Drawer anchor='left' open={open} onClose={handleClick}>
                 <Logo link />
-                <ul className={classes.NavigationList}>
-                    {NavigationLinks.map(({ title, icon, path }) => (
-                        <li key={title} className={classes.NavigationElement}>
-                            <ListItem button component='a' href={path}>
-                                <ListItemIcon>{icon}</ListItemIcon>
-                                <ListItemText primary={title} />
-                            </ListItem>
-                        </li>
-                    ))}
-                </ul>
+                <nav>
+                    <ul className={classes.NavigationList}>
+                        {NavigationLinks.map(({ title, icon, path }) => (
+                            <li key={title} className={classes.NavigationElement}>
+                                <ListItem button component='a' href={path}>
+                                    <ListItemIcon>{icon}</ListItemIcon>
+                                    <ListItemText primary={title} />
+                                </ListItem>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
             </Drawer>
         </Hidden>
     );
