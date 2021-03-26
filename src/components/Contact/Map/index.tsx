@@ -29,7 +29,7 @@ export const Map: React.FC<MapProps> = () => {
     if (loadError) return <h1>Error</h1>;
     if (!isLoaded) return <h1>Loading</h1>;
     return (
-        <Grid item xs={12}>
+        <Grid item xs={12} component='section'>
             <GoogleMap mapContainerStyle={mapContainerStyle} zoom={17} center={center}>
                 <Marker position={center} onClick={handleOpen} />
                 {open && (

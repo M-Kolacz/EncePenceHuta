@@ -5,6 +5,9 @@ const useStyles = makeStyles(({ spacing }) => ({
     FormContainer: {
         margin: spacing(2, 0),
     },
+    FormImg: {
+        width: '100%',
+    },
 }));
 
 export default useStyles;

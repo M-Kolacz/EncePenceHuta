@@ -9,7 +9,7 @@ export interface FormProps {}
 export const Form: React.FC<FormProps> = () => {
     const classes = useStyles();
     return (
-        <Grid container item xs={12}>
+        <Grid container item xs={12} component='section'>
             <Typography variant='h2' className={classes.FormTitle}>
                 Skontaktuj się z nami
             </Typography>
@@ -17,7 +17,7 @@ export const Form: React.FC<FormProps> = () => {
                 <EmailForm />
             </Grid>
             <Grid item xs={12} md={6}>
-                <img src='images/svg/contact.svg' alt='' style={{ width: '100%' }} />
+                <img src='images/svg/contact.svg' alt='' role='presentation' className={classes.FormImg} />
             </Grid>
         </Grid>
     );

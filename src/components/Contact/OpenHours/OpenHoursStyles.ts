@@ -19,6 +19,9 @@ const useStyles = makeStyles(({ spacing, palette, breakpoints }) => ({
             height: '400px',
         },
     },
+    AskAddress: {
+        fontStyle: 'normal',
+    },
     AskContactBorder: {
         [breakpoints.up('md')]: {
             borderRight: `1px solid ${palette.primary.main}`,

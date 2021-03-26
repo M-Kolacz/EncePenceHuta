@@ -10,7 +10,7 @@ export interface OpenHoursProps {}
 export const OpenHours: React.FC<OpenHoursProps> = () => {
     const classes = useStyles();
     return (
-        <Grid container justify='space-evenly' alignItems='center' item xs={12}>
+        <Grid container justify='space-evenly' alignItems='center' item xs={12} component='section'>
             <Typography variant='h2' className={classes.AskTitle}>
                 Dane kontaktowe
             </Typography>
@@ -28,7 +28,7 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
                     <Typography variant='h3' className={classes.AskTitle}>
                         Godziny otwarcia
                     </Typography>
-                    <Typography variant='h4' className={classes.AskDescription}>
+                    <Typography variant='h4' component='p' className={classes.AskDescription}>
                         Poniedziałek-Piątek
                     </Typography>
                     <Typography variant='body1'>7:00 - 17:00</Typography>
@@ -44,15 +44,20 @@ export const OpenHours: React.FC<OpenHoursProps> = () => {
                 md={6}
                 className={classes.AskContactContainer}
             >
-                <Box>
+                <Box component='address' className={classes.AskAddress}>
                     <Typography variant='h3' className={classes.AskTitle}>
                         Odwiedź nas
                     </Typography>
-                    <Typography variant='h4' className={classes.AskDescription}>
+                    <Typography variant='h4' component='p' className={classes.AskDescription}>
                         os. Centrum E14 lok.3 31-934 Kraków
                     </Typography>
-                    <Typography variant='body1'>Email: zlobekhuta@gmail.com</Typography>
-                    <Typography variant='body1'>Tel: 739 048 513 </Typography>
+                    <Typography variant='body1' component='p'>
+                        {' '}
+                        Email: zlobekhuta@gmail.com
+                    </Typography>
+                    <Typography variant='body1' component='p'>
+                        Tel: 739 048 513{' '}
+                    </Typography>
                 </Box>
             </Grid>
             <Hr className={classes.HrDown} />
