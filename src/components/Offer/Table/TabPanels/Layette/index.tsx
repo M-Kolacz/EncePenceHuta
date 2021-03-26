@@ -8,7 +8,7 @@ export const Layette: React.FC<LayetteProps> = () => {
     const classes = useStyles();
     return (
         <>
-            <Typography variant='h3' className={classes.Title}>
+            <Typography variant='h3' component='h2' className={classes.Title}>
                 W skład wyprawki wchodzi
             </Typography>
             <ul>

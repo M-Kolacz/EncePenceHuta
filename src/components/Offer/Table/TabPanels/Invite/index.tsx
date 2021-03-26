@@ -8,7 +8,7 @@ export const Invite: React.FC<InviteProps> = () => {
     const classes = useStyles();
     return (
         <>
-            <Typography variant='h3' className={classes.Title}>
+            <Typography variant='h3' component='h2' className={classes.Title}>
                 Zapisy na rok 2020/2021
             </Typography>
             <Typography variant='body1'>
@@ -19,7 +19,7 @@ export const Invite: React.FC<InviteProps> = () => {
             <ul>
                 <li>
                     <Typography variant='body1'>
-                        <Link href='/' color='secondary'>
+                        <Link href='docs/zgłoszenie.docx' color='secondary'>
                             Pobierz kartę zgłoszenia dziecka
                         </Link>
                     </Typography>

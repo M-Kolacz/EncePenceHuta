@@ -8,7 +8,7 @@ export const Catering: React.FC<CateringProps> = () => {
     const classes = useStyles();
     return (
         <>
-            <Typography variant='h3' className={classes.Title}>
+            <Typography variant='h3' component='h2' className={classes.Title}>
                 Wyżywienie
             </Typography>
             <Typography variant='body1'>

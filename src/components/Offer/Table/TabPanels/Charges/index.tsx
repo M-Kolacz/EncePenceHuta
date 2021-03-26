@@ -8,7 +8,7 @@ export const Charges: React.FC<ChargesProps> = () => {
     const classes = useStyles();
     return (
         <>
-            <Typography variant='h3' className={classes.Title}>
+            <Typography variant='h3' component='h2' className={classes.Title}>
                 Abonament
             </Typography>
             <ul>
@@ -19,7 +19,7 @@ export const Charges: React.FC<ChargesProps> = () => {
                     <Typography variant='body1'> do 5 godzin dziennie - ok. 400 zł</Typography>
                 </li>
             </ul>
-            <Typography variant='h3' className={classes.Title}>
+            <Typography variant='h3' component='h2' className={classes.Title}>
                 Dane do przelewu
             </Typography>
             <Typography variant='body1'>

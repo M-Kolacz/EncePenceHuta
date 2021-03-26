@@ -44,8 +44,8 @@ export const ScrollableTabsButtonForce = () => {
     };
 
     return (
-        <Grid item xs={12} className={classes.TableContainer}>
-            <AppBar position='static' color='default'>
+        <Grid item xs={12} className={classes.TableContainer} component='section'>
+            <AppBar position='static' color='default' component='nav'>
                 <Tabs
                     value={value}
                     onChange={handleChange}
@@ -53,7 +53,6 @@ export const ScrollableTabsButtonForce = () => {
                     scrollButtons='on'
                     indicatorColor='primary'
                     textColor='primary'
-                    aria-label='scrollable force tabs example'
                 >
                     {TabData.map((tab) => (
                         <Tab {...tab} key={tab.id} />
