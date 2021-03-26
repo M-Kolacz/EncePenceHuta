@@ -31,9 +31,17 @@ export const Opinions: React.FC<OpinionsProps> = () => {
         setActiveStep(step);
     };
     return (
-        <Grid container justify='center' alignItems='center' item xs={12} className={classes.OpinionsContainer}>
+        <Grid
+            container
+            justify='center'
+            alignItems='center'
+            item
+            xs={12}
+            className={classes.OpinionsContainer}
+            component='section'
+        >
             <Box className={classes.OpinionsBox}>
-                <Typography variant='h3' className={classes.OpinionsTitle}>
+                <Typography variant='h3' component='h2' className={classes.OpinionsTitle}>
                     Opinie rodziców
                 </Typography>
                 <AutoPlaySwipeableViews axis='x' index={activeStep} onChangeIndex={handleStepChange} enableMouseEvents>

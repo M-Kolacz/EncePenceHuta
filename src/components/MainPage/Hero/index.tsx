@@ -9,7 +9,7 @@ export const Hero: React.FC<HeroProps> = () => {
     const { palette } = useTheme();
     const classes = useStyles();
     return (
-        <Grid item xs={12} className={classes.HeroContainer}>
+        <Grid item xs={12} className={classes.HeroContainer} component='section'>
             <Hidden>
                 <Box className={classes.HeroTitleContainer}>
                     <Typography variant='h1' component='h2'>

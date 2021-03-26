@@ -10,7 +10,15 @@ export interface ServiceProps {}
 export const Service: React.FC<ServiceProps> = () => {
     const classes = useStyles();
     return (
-        <Grid container justify='space-evenly' alignItems='center' item xs={12} className={classes.ServiceContainer}>
+        <Grid
+            container
+            justify='space-evenly'
+            alignItems='center'
+            item
+            xs={12}
+            className={classes.ServiceContainer}
+            component='section'
+        >
             <Typography variant='h2' className={classes.ServiceTitleContainer}>
                 Oferujemy
             </Typography>
