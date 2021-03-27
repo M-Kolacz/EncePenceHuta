@@ -21,8 +21,6 @@ export default class MyDocument extends Document {
                     />
                     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons' />
 
-                    <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width' />
-                    <title>Ence Pence Żłobek Nowa Huta</title>
                     <link rel='icon' type='image/svg' href='images/svg/rainbow.svg' />
                     <meta
                         name='description'
