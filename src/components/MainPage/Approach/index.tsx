@@ -9,7 +9,7 @@ export const Approach: React.FC<ApproachProps> = () => {
     return (
         <Grid container item xs={12} className={classes.ApproachContainer} component='section'>
             <Grid item xs={12} md={6}>
-                <img src='images/svg/hero4.svg' alt='' role='presentation' className={classes.ApproachImage} />
+                <img src='images/svg/playingChild.svg' alt='' role='presentation' className={classes.ApproachImage} />
             </Grid>
             <Grid container justify='space-evenly' alignItems='center' item xs={12} md={6}>
                 <Box textAlign='center'>

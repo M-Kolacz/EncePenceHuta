@@ -10,7 +10,7 @@ const useStyles = makeStyles(({ spacing, breakpoints }) => ({
         backgroundPosition: 'bottom',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        backgroundImage: 'url(images/svg/hero2.svg)',
+        backgroundImage: 'url(images/svg/nursery.svg)',
     },
     HeroTitleContainer: {
         position: 'sticky',

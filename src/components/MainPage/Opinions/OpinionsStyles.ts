@@ -9,7 +9,7 @@ const useStyles = makeStyles(({ palette, spacing, breakpoints }) => ({
         backgroundPosition: '40% 20%',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        backgroundImage: 'url(images/svg/opinionsBackground.svg)',
+        backgroundImage: 'url(images/svg/localCommunity.svg)',
         [breakpoints.up('md')]: {
             backgroundPosition: 'center',
         },
