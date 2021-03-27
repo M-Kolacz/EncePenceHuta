@@ -13,7 +13,7 @@ const Logo: React.FC<LogoProps> = ({ link }) => {
             <Box className={classes.LogoContainer}>
                 <a href='/' className={classes.LogoLink}>
                     <Box>
-                        <img src='images/svg/rainbow.svg' alt='Rainbow' className={classes.LogoImg} />
+                        <img src='images/svg/rainbow.svg' alt='Logo żłobka' className={classes.LogoImg} />
                         <Typography variant='h3' className={classes.LogoTitle} component='h1'>
                             Ence Pence
                         </Typography>
@@ -28,7 +28,7 @@ const Logo: React.FC<LogoProps> = ({ link }) => {
     return (
         <Box className={classes.LogoContainer}>
             <Box>
-                <img src='images/svg/rainbow.svg' alt='Rainbow' className={classes.LogoImg} />
+                <img src='images/svg/rainbow.svg' alt='Logo żłobka' className={classes.LogoImg} />
                 <Typography variant='h3' className={classes.LogoTitle} component='h1'>
                     Ence Pence
                 </Typography>

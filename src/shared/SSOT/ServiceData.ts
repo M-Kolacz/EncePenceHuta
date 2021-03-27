@@ -1,6 +1,7 @@
 export default [
     {
         title: 'Gry',
+        alt: 'Piłka do zabawy',
         description:
             'Gra we wczesnym dzieciństwie jest najlepszym fundamentem sukcesu w szkole. Rozwija wszystkie niezbędne umiejętności uczenia się.',
         blankText: '',
@@ -8,6 +9,7 @@ export default [
     },
     {
         title: 'Zajęcia',
+        alt: 'Kredki do rysowania',
         description:
             'Nasze działania będą rozwijać u dziecka kreatywność, wyobraźnię, umiejętność myślenia i umiejętności społeczne.',
         blankText: 'Example text exam',
@@ -15,6 +17,7 @@ export default [
     },
     {
         title: 'Nauka',
+        alt: 'Liczydło',
         description:
             'Nasz żłobek oferuje wiele działań edukacyjnych. Twoje dziecko wiele nauczy się podczas gier i zabawy.',
         blankText: 'Example text example text e',

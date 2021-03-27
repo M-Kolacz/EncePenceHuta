@@ -23,9 +23,9 @@ export const Service: React.FC<ServiceProps> = () => {
                 Oferujemy
             </Typography>
 
-            {ServiceData.map(({ title, description, blankText, image }) => (
+            {ServiceData.map(({ title, description, blankText, image, alt }) => (
                 <Grid item xs={12} md={3} className={classes.ServiceItemContainer} key={title}>
-                    <img src={image} alt='Bike' />
+                    <img src={image} alt={alt} />
                     <Typography variant='h3' className={classes.ServiceItemTitle}>
                         {title}
                     </Typography>
