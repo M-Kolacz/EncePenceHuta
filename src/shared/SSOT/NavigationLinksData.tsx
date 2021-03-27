@@ -5,17 +5,17 @@ import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 const NavigationLinks = [
     {
         title: 'Aktualności',
-        path: '/aktualnosci',
+        path: '/aktualnosci.html',
         icon: <AddAlertIcon />,
     },
     {
         title: 'Oferta',
-        path: '/oferta',
+        path: '/oferta.html',
         icon: <AssignmentIndIcon />,
     },
     {
         title: 'Kontakt',
-        path: '/kontakt',
+        path: '/kontakt.html',
         icon: <ContactMailIcon />,
     },
 ];
