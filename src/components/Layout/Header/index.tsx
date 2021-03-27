@@ -13,7 +13,9 @@ const Header: React.FC<HeaderProps> = () => {
 
     return (
         <Grid container item xs={12} component='header' className={classes.HeaderContainer}>
-            <Link href='#main' className={classes.SkipLink} />
+            <Link href='#main' className={classes.SkipLink}>
+                Skip link
+            </Link>
             <Grid item xs={12} md={3} className={classes.LogoContainer}>
                 <Logo link />
             </Grid>
