@@ -6,7 +6,7 @@ import theme from 'shared/theme/main';
 export default class MyDocument extends Document {
     render() {
         return (
-            <Html lang='en'>
+            <Html lang='pl'>
                 <Head>
                     {/* PWA primary color */}
                     <meta name='theme-color' content={theme.palette.primary.main} />
@@ -20,6 +20,15 @@ export default class MyDocument extends Document {
                         href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'
                     />
                     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons' />
+
+                    <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width' />
+                    <title>Ence Pence Żłobek Nowa Huta</title>
+                    <link rel='icon' type='image/svg' href='images/svg/rainbow.svg' />
+                    <meta
+                        name='description'
+                        content='Ence Pence Żłobek Nowa Huta. Profesjonalna opieka nad dziećmi w wieku od 5 miesiecy do 3/4 lat.'
+                    />
+                    <meta name='robots' content='index, follow' />
                 </Head>
                 <body>
                     <Main />
