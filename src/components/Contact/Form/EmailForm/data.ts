@@ -44,9 +44,9 @@ export const validationSchema = Yup.object({
 });
 
 const sendData = {
-    service_id: 'service_oyli6yt',
-    template_id: 'template_kw7qdhr',
-    user_id: 'user_ZGgdfbaRZWVwNFLhW8HPD',
+    service_id: process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
+    template_id: process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
+    user_id: process.env.NEXT_PUBLIC_EMAIL_USER_ID,
 };
 
 export const sendEmail = async (emailData: IEmailForm) => {

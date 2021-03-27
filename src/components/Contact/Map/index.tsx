@@ -20,7 +20,7 @@ const center = {
 export const Map: React.FC<MapProps> = () => {
     const classes = useStyles();
     const [open, setOpen] = useState(false);
-    const { isLoaded, loadError } = useLoadScript({ googleMapsApiKey: 'AIzaSyDCq8_QGNKPn-RbnLh8ZYPAGzxVqVPG4Ak' });
+    const { isLoaded, loadError } = useLoadScript({ googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS });
 
     const handleOpen = () => {
         setOpen((prevState) => !prevState);
