@@ -40,7 +40,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -50,18 +49,25 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][website-screenshot]](http://zlobeknowahuta.pl/)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`M-Kolacz`, `EncePenceHuta`, `M_Kolacz`, `michal.kolacz45@gmail.com`, `Nursery website`, `project_description`
+The project was created for a client who needed a website for his nursery. Communication took place at every stage of creating the website to adapt to the changing requirements of the client. The text content of the website was developed in cooperation with the client.
+
+The most important needs for the client were:
+<ul>
+<li>Contact form for the interested parent</li>
+<li>Implementation of the goggle map with the presentation of the nursery location</li>
+<li>Presentation of the nursery</li>
+<li>Social media links</li>
+</ul>
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [React](https://reactjs.org/)
+* [Next.js](https://nextjs.org/)
+* [Material-UI](https://material-ui.com/)
+* [Formik](https://formik.org/)
 
 
 
@@ -92,6 +98,13 @@ This is an example of how to list things you need to use the software and how to
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@M_Kolacz](https://twitter.com/M_Kolacz) - michal.kolacz45@gmail.com
+* Email - michal.kolacz45@gmail.com
+* Linkedin - https://www.linkedin.com/in/m-kolacz/
+* Twitter - [@M_Kolacz](https://twitter.com/M_Kolacz)
 
-Project Link: [https://github.com/M-Kolacz/EncePenceHuta](https://github.com/M-Kolacz/EncePenceHuta)
+
+
+
+
+
+[website-screenshot]: readme/screenshot.png
