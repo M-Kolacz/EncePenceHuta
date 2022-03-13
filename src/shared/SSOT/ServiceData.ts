@@ -23,4 +23,12 @@ export default [
         blankText: 'Example text example text e',
         image: 'images/svg/abacus.svg',
     },
+    {
+        title: 'українська мова',
+        alt: 'Flaga UA',
+        description:
+            'Один з наших опікунів вільно володіє українською мовою. Ласкаво просимо.',
+        blankText: 'Example text example text e',
+        image: 'images/svg/flag.svg',
+    },
 ];
