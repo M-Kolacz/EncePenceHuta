@@ -9,7 +9,7 @@ export const Invite: React.FC<InviteProps> = () => {
     return (
         <>
             <Typography variant='h3' component='h2' className={classes.Title}>
-                Zapisy na rok 2020/2021
+                Zapisy na rok 2022/2023
             </Typography>
             <Typography variant='body1'>
                 Przyjmujemy dzieci przez cały rok (w zależności do ilości miejsc). W celu zapisu dziecka do naszego

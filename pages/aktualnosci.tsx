@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Invite, Dotations, Maluch } from 'components/News';
+import { Invite, Dotations } from 'components/News';
 
 export interface NewsPageProps {}
 
@@ -9,12 +9,11 @@ const NewsPage: React.FC<NewsPageProps> = () => {
             <Head>
                 <meta
                     name='description'
-                    content='Ence Pence Żłobek Nowa Huta. Profesjonalna opieka nad dziećmi w wieku od 5 miesięcy do 3/4 lat. Aktualności dotyczące zapisów i dotacji do opieki nad dziećmi.'
+                    content='Ence Pence Żłobek Nowa Huta. Profesjonalna opieka nad dziećmi w wieku od 5 miesięcy do 3, 4 lat. Aktualności dotyczące zapisów i dotacji do opieki nad dziećmi.'
                 />
             </Head>
             <Invite />
             <Dotations />
-            <Maluch />
         </>
     );
 };

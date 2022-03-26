@@ -18,7 +18,7 @@ export const Charges: React.FC<ChargesProps> = () => {
                 ewentualnie dofinansowanie do opieki w złobku w wysokości 400zł.)
             </Typography>
             <Typography variant='h3' component='h2' className={classes.Title}>
-                Wysokość dotacji UMK (1.70zł do każdej godziny pobytu dziecka)
+                Wysokość dotacji UMK (1,70zł do każdej godziny pobytu dziecka)
             </Typography>
             <ul>
                 {charges.map((charge) => (

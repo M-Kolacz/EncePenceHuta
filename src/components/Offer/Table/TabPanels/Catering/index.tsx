@@ -12,7 +12,7 @@ export const Catering: React.FC<CateringProps> = () => {
                 Wyżywienie
             </Typography>
             <Typography variant='body1'>
-                Catering będzie dostarczany przez firmę „Be Healthy” - zdrowa kuchnia dla dzieci.
+                Catering będzie dostarczany przez firmę „Zdrowy Catering”, która ma doświadczenie w dostarczaniu pysznych i zdrowych posiłków do żłobków i przedszkoli. 
             </Typography>
         </>
     );

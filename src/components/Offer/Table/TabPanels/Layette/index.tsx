@@ -13,26 +13,54 @@ export const Layette: React.FC<LayetteProps> = () => {
             </Typography>
             <ul>
                 <li>
-                    <Typography variant='body1'>środki higieny osobistej - pampersy, chusteczki nawilżające</Typography>
-                </li>
-                <li>
                     <Typography variant='body1'>
-                        kubek / butelka - jeżeli dziecko jeszcze nie pije z normalnego kubka
+                        Uniwersalne ubranko na zmianę: 
+                        Mamo powinnaś zostawić w żłobku dwa komplety ubranka dla dziecka, na wypadek gdyby ubrudziło się.
                     </Typography>
                 </li>
                 <li>
                     <Typography variant='body1'>
-                        obuwie na zmianę na rzepę lub zatrzask jeżeli dziecko już chodzi bądź skarpetki antypoślizgowe
+                        Buciki: 
+                        Jeśli Twój maluch już chodzi, potrzebne mu będą także buciki na zmianę. Zwróć uwagę, aby ich podeszwa 
+                        nie była śliska, co zmniejszy ryzyko bolesnych upadków. Jeśli chcesz aby dziecko chodziło jedynie w skarpetkach dla Nas nie ma żadnego problemu.
                     </Typography>
                 </li>
                 <li>
-                    <Typography variant='body1'>ubranka na zmianę</Typography>
+                    <Typography variant='body1'>
+                        Poduszka i kołderka: 
+                        Pamiętaj o poduszce, kołderce lub kocyku, poszewkach na nie oraz prześcieradełku (najlepiej z gumką).
+                    </Typography>
                 </li>
                 <li>
-                    <Typography variant='body1'>komplet pościeli, kocyk / kołderkę, poduszkę, prześcieradło</Typography>
+                    <Typography variant='body1'>
+                        Pieluchy: 
+                        Rodzice powinni dostarczyć do żłobka zapas pieluch dla dziecka oraz chusteczki nawilżające.
+                    </Typography>
                 </li>
                 <li>
-                    <Typography variant='body1'>smoczek - jeżeli dziecko używa</Typography>
+                    <Typography variant='body1'>
+                        Przybory do mycia zębów: 
+                        Zaopatrz maluszka także w zestaw do mycia zębów: szczoteczkę, pastę.
+                    </Typography>
+                </li>
+                <li>
+                    <Typography variant='body1'>
+                        2 butelki: 
+                        Zostaw w żłobku podpisane dwie butelki, jedną na mleko (jeśli dziecko pije mleko), 
+                        drugą do picia np. herbaty. Jeśli dziecko nie pije już z butelki, możesz kupić dla niego kubeczek np. niekapek.
+                    </Typography>
+                </li>
+                <li>
+                    <Typography variant='body1'>
+                        Smoczek: 
+                        Smoczek w żłobku pomaga uspokoić i uśpić dziecko. Dotyczy to zwłaszcza młodszych maluchów.
+                    </Typography>
+                </li>
+                <li>
+                    <Typography variant='body1'>
+                        Przytulanka: 
+                        Możesz zostawić w żłobku ulubioną przytulankę dziecka.
+                    </Typography>
                 </li>
             </ul>
             <Typography variant='body1'>Wszystkie rzeczy dziecka powinny być podpisane.</Typography>
