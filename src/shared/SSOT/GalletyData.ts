@@ -43,4 +43,22 @@ export default [
         cols: 1,
         rows: 2,
     },
+    {
+        img: 'images/jpg/hutaimg/Żłobek_Nowa_Huta_8.jpg',
+        title: 'Zdjęcie żłobka',
+        cols: 1,
+        rows: 2,
+    },
+    {
+        img: 'images/jpg/hutaimg/Żłobek_Nowa_Huta_9.jpg',
+        title: 'Zdjęcie żłobka',
+        cols: 1,
+        rows: 2,
+    },
+    {
+        img: 'images/jpg/hutaimg/Żłobek_Nowa_Huta_10.jpg',
+        title: 'Zdjęcie żłobka',
+        cols: 1,
+        rows: 2,
+    },
 ];
