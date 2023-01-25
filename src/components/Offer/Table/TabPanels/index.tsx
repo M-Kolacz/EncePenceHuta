@@ -1,7 +1,7 @@
-import { Invite } from './Invite';
-import { Charges } from './Charges';
-import { Layette } from './Layette';
 import { Catering } from './Catering';
+import { Charges } from './Charges';
+import { Invite } from './Invite';
+import { Layette } from './Layette';
 
 export default [
     {

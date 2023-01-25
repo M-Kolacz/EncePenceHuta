@@ -1,5 +1,6 @@
+import { Dotations, Invite, Maluch } from 'components/News';
+
 import Head from 'next/head';
-import { Invite, Dotations, Maluch } from 'components/News';
 
 export interface NewsPageProps {}
 
@@ -14,7 +15,6 @@ const NewsPage: React.FC<NewsPageProps> = () => {
             </Head>
             <Invite />
             <Dotations />
-            <Maluch />
         </>
     );
 };
