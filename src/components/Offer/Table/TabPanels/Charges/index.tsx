@@ -11,9 +11,7 @@ export const Charges: React.FC<ChargesProps> = () => {
             <Typography variant='h3' component='h2' className={classes.Title}>
                 Abonament
             </Typography>
-            <Typography variant='body1'>
-                Ok. 420/450 zł z uwzględnieniem dotacji UMK i dofinansowaniem ZUS 400zł bez limitu godzin.
-            </Typography>
+            <Typography variant='body1'>Od 01.2024r ok. 750zł z dotacją UMK i dofinansowaniem ZUS.</Typography>
         </>
     );
 };

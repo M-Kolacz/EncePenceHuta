@@ -4,10 +4,10 @@ export interface DotationsProps {}
 
 export const Dotations: React.FC<DotationsProps> = () => {
     return (
-        <NewsTemplate title='Dotacje Gminy Miejskiej Kraków do opieki nad dziećmi w wieku do lat 3 w 2021 roku'>
+        <NewsTemplate title='Dotacje Gminy Miejskiej Kraków do opieki nad dziećmi w wieku do lat 3 w 2024 roku'>
             <NewsImage src='images/jpg/logoKrakow.jpg' alt='Logo miasta Kraków' />
             <NewsParagraph>
-                W roku 2023 od 1 stycznia 2023 roku Gmina Miejska Kraków udzielać będzie dotacji (dofinansowania) do
+                W roku 2024 od 1 stycznia 2024 roku Gmina Miejska Kraków udzielać będzie dotacji (dofinansowania) do
                 dzieci objętych opieką. Podstawowa kwota dotacji (dofinansowania) udzielanej przez Gminę Miejską Kraków
                 wynosi 3,50zł za godzinę opieki nad dzieckiem. Zgodnie z podpisaną z Gminą Miejską Kraków umową, w
                 okresie otrzymania dotacji zobowiązani jesteśmy do pomniejszania wysokości miesięcznych opłat za objęcie
