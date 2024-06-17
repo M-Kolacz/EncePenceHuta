@@ -31,6 +31,13 @@ export const Invite: React.FC<InviteProps> = () => {
                         </Link>
                     </Typography>
                 </li>
+                <li>
+                    <Typography variant='body1'>
+                        <Link href='docs/Ochrona-małoletnich-obrazki.docx' color='secondary'>
+                            Pobierz grafikę ochrony małoletnich
+                        </Link>
+                    </Typography>
+                </li>
             </ul>
         </>
     );

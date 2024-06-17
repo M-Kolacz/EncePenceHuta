@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = () => {
         <Grid container item xs={12} component='footer' className={classes.FooterContainer}>
             <Grid item xs={12} md={9} className={classes.CopyRightsContainer}>
                 <Typography variant='body2' className={classes.CopyRightsDate}>
-                    © 2020 Ence Pence
+                    © 2024 Ence Pence
                 </Typography>
                 <Typography variant='body2' className={classes.CopyRightsLogo}>
                     Żłobek Nowa Huta
