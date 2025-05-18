@@ -8,20 +8,20 @@ export const Catering: React.FC<CateringProps> = () => {
     return (
         <>
             <Typography variant='h3' component='h2' className={classes.Title}>
-                Stawka żywieniowa 16.50 zł/dzień w tym 4 posiłki:
+                Stawka żywieniowa 19,00 zł/dzień w tym 4 posiłki:
             </Typography>
             <ul>
                 <li>
-                    <Typography variant='body1'>Śniadanie 2,50zł</Typography>
+                    <Typography variant='body1'>Śniadanie 2,50 zł</Typography>
                 </li>
                 <li>
                     <Typography variant='body1'>2-gie Śniadanie 1,50 zł</Typography>
                 </li>
                 <li>
-                    <Typography variant='body1'>Obiad (Zupa + Drugie danie) 10 zł</Typography>
+                    <Typography variant='body1'>Obiad (Zupa + Drugie danie) 13,00 zł</Typography>
                 </li>
                 <li>
-                    <Typography variant='body1'>Podwieczorek 2,50 zł</Typography>
+                    <Typography variant='body1'>Podwieczorek 2,00 zł</Typography>
                 </li>
             </ul>
             <Typography variant='body1'>
